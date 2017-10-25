@@ -1,6 +1,6 @@
-/* metrpolis.cpp
+/* random_generator.cpp
+ * Various Random Number Generators aiding the model
  * Andre Zapico
- * General Adaptive Metropolis in C++
  */
 
 
