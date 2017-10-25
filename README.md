@@ -26,8 +26,11 @@ Linux:
 
 Data is output in the following formats:
 B: The B matrices stacked by column.
+
 Gamma: For each iteration, there p vectorized rows of Gamma realizations. That is, each row is 1 x R(R+1)/2, and there are p * #iterations rows.
+
 Lambda: For each iteration, we have n vectorized Lambda matrices. so we have n * #iter rows of 1xR^R matrices.
+
 
 a sample run will look like this:
 $ ./px_blgrm network_matrices.csv design_matric.csv 17 250 5500 500 10 0
