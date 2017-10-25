@@ -1,6 +1,7 @@
 /*   PX-Bayesian Low-rank Graph Regression Model
  *   MCMCpara nested class, for parameter initialization
- *   Andre 
+ *   Eunjee Lee
+ *   C++ Implementation by Andre Zapico
  */
 
 
