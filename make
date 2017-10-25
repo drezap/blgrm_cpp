@@ -1,0 +1,1 @@
+g++ -o px_blgrm main.cpp px_blgrm_helper.cpp mcmc_para.cpp px_blgrm.cpp random_generator.cpp -Werror -O1 -larmadillo -lsuperlu
