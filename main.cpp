@@ -1,7 +1,7 @@
 /*  PX-Bayesian Low-rank Graph Regression Model
  *  main.cpp
  *  Eunjuee Lee
- *  
+ *  C++ implementation by Andre Zapico
  */
 
 #include <iostream>
