@@ -1,11 +1,12 @@
 # blgrm_cpp
 A Bayesian Low Rank Graph Regression Model for Brain Network Connectivity Data
 
-The original model and MATLAB implementation is was designed and implemented by Eunjee Lee, Michigan Biostatistics Department.
+Eunjee Lee.
+
+
+The original model and MATLAB implementation is was designed and implemented by Eunjee Lee, Michigan Biostatistics Department. C++ implementation by Andre Zapico, of Sripada's Lab.
 
 Programs for parameter-expanded Bayesian low-rank graph regression models.
-
-This c++ px_blgrm package is written by Andre Zapico, of Chandra Sripada's lab.
 
 We propose a Bayesian low-rank graph regression modeling (BLGRM) framework for the regression analysis of matrix response data across subjects. This development is motivated by performing detailed comparisons of functional and structural connectivity data across subjects, groups, and time and relating connections to particular behavioral measures. The BLGRM can be regarded as a novel integration of principal component analysis, tensor decomposition, and regression models. In BLGRM, we find a common low-dimensional subspace for efficiently representing all matrix responses. Based on such low-dimensional representation, we can easily quantify the effects of various predictors of interest, such as age and diagnosis status, and then perform regression analysis in the common subspace, leading to both substantial dimension reduction and much better prediction. Posterior computation proceeds via an efficient Markov chain Monte Carlo algorithm.
 
