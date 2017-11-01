@@ -4,7 +4,7 @@ A Bayesian Low Rank Graph Regression Model for Brain Network Connectivity Data
 Eunjee Lee.
 
 
-The original model and MATLAB implementation is was originally designed and implemented by Eunjee Lee, Michigan Biostatistics Department. The link to the MATLAB implementation be found here: https://github.com/BIG-S2/BLGRM. C++ implementation by Andre Zapico, of Sripada Lab. Please direct any bugs or questions to Andre Zapico: drezap@umich.edu
+The original model and MATLAB implementation is was designed and implemented by Eunjee Lee, Michigan Biostatistics Department. The link to the MATLAB implementation be found here: https://github.com/BIG-S2/BLGRM. C++ implementation by Andre Zapico, of Sripada Lab, University of Michigan Department of Psychiatry. Please direct any bugs or questions to Andre Zapico: drezap@umich.edu
 
 
 Programs for parameter-expanded Bayesian low-rank graph regression models.
