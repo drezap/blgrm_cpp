@@ -678,7 +678,6 @@ void write_to_file(mat B, cube Lambda, mat Gamma, cube Delta, string outf_name){
     temp.reshape(1, R * R);
     outf << temp;
   }
-  outf << "end_iter\n";
   outf.close();
 
   outf.open(outf_name + "_Delta.txt", std::ios::app);
@@ -687,7 +686,6 @@ void write_to_file(mat B, cube Lambda, mat Gamma, cube Delta, string outf_name){
     temp.reshape(1, R * R);
     outf << temp;
   }
-  outf << "end_iter\n";
   outf.close();
 }
 
